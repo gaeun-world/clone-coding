@@ -1,0 +1,65 @@
+.wrap
+    header
+        nav
+            div > .slogun > .logo, .p, i, button
+            div > ul.gnb > li *3
+            div > a, button
+        .logo
+        .lnb
+            button.start-button
+            .search-btn
+
+    main
+        section#section1
+            .slogun > p
+            .notice > p
+        section#section2
+            .writing-slider .slider-1 (플러그인 쓰기)
+            pig
+            nav
+        section#section3
+            .keyword-writing
+                h1
+                div.list
+                    div.box
+                        div > p > a *24(8칸3줄)
+        section#section4
+            .day-writing
+                h1
+                div.day
+                    ul>li *7
+                div.filter
+                    ol>li *2
+                div.list
+                    div.box 
+                        div > p,h2,i
+                        div > img
+                div.more-btn  > button
+        section#section5
+            .writers-writing
+                div.filter
+                    ol>li *3
+                div.list
+                    div.box
+                        div > img, h2, b, p
+                        div > button *3
+        section#sectioin6
+            .banner 
+
+        article
+            .articles
+                h1
+                articles-slider (플러그인 쓰기)
+
+    footer
+        .footer-inner
+            .f-slogun
+                .f-logo, p, i
+            .f-menu
+                ul.f-menu-1
+                ul.f-menu-2
+                ul.f-menu-3
+            .copy
+                p
+            .sns
+                span > a > img
