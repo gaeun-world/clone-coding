@@ -14,9 +14,20 @@
             .slogun > p
             .notice > p
         section#section2
-            .writing-slider .slider-1 (플러그인 쓰기)
-            pig
-            nav
+            .section-inner-wide
+                .slider-1-wrap
+                    .slider-1
+                        .slides
+                            .slide  *10
+                                .slide-bg > img
+                                .h1
+                                b > i
+                                img
+                                p
+                        .slider-button-prev
+                        .slider-button-next
+                        ul.slider-pagination > li *5
+
         section#section3
             .keyword-writing
                 h1
@@ -46,10 +57,10 @@
         section#sectioin6
             .banner 
 
-        article
-            .articles
-                h1
-                articles-slider (플러그인 쓰기)
+    article
+        .articles
+            h1
+            articles-slider (플러그인 쓰기)
 
     footer
         .footer-inner
