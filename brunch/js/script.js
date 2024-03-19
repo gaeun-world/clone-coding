@@ -25,3 +25,4 @@ prevBtn.addEventListener('click', function(){
         curIndex--;
     }
 })
+*/

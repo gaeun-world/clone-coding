@@ -56,6 +56,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .hamburger-menu img {
     
@@ -85,10 +86,14 @@ nav {}
     border-radius: 20px;
     padding: 5px 10px;
     margin: 0 15px;
+    cursor: pointer;
 }
 .start-btn p {
     color: #777;
     font-size: 0.75rem;
+}
+.search-btn {
+    cursor: pointer;
 }
 
 
@@ -124,11 +129,11 @@ section {
 }
 .top-slogun > h2 {
     font-size: 2rem;
-    color: #999;
-    line-height: 2.5rem;
+    color: #bbb;
+    line-height: 2.8rem;
 }
 .top-slogun > h2:nth-of-type(3) {
-    color: #bbb;
+    color: #ddd;
 }
 .notify {
     display: flex;
@@ -146,6 +151,10 @@ section {
 }
 .notify > p > span {
     color: #999;
+    cursor: pointer;
+}
+.notify > p > span:hover {
+    text-decoration: underline;
 }
 .notify > p:nth-child(2) {
     display: none;
@@ -181,6 +190,11 @@ section {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.slide:hover .slide-bg.opacity > img {
+    transform: scale(1.15);
 }
 .slide-blank {
     background-color: #fff;
@@ -206,6 +220,7 @@ section {
 }
 .slide-bg.opacity img {
     opacity: 0.6;
+    transition: 0.3s;
 }
 .slide > h1 {
     width: 300px;
@@ -277,8 +292,8 @@ section {
     height: 15px;
 }
 .slider-1-pagination > li.active img {
-    transform: translateY(-10px);
-    width: 15px;
+    transform: translateY(-7px);
+    width: 13px;
 }
 
 #section-3 {}
@@ -393,6 +408,9 @@ section {
 }
 .day-writing > .filter > ol > li {
     position: relative;
+}
+.day-writing > .filter > ol > li:hover {
+    text-decoration: underline;
 }
 .day-writing > .filter > ol > li.active {
     color: #0ddbc6;
@@ -710,6 +728,10 @@ margin-bottom: 10px;
     line-height: 2rem;
     color: #bbb;
 }
+.f-menu > ul > li:hover {
+    color: #eee;
+    text-decoration: underline;
+}
 .f-bottom {
     border-top: 1px solid #333;
     display: flex;
@@ -728,4 +750,32 @@ margin-bottom: 10px;
 .sns {}
 .sns span {
     margin-left: 15px;
+}
+
+.top-btn {
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    bottom: 35px;
+    right: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px 10px;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.2);
+}
+.top-btn > p {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 600;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.75rem;
+}
+.top-btn > span {
+    color: #aaa;
+    font-size: 1.2rem;
 }
