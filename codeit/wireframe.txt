@@ -1,0 +1,131 @@
+.wrap
+    ul.top_navi
+        li *2 > a > img
+    header
+        .header-inner
+            .header-left
+                .logo > img
+                .search-box > input[type=search] > :before (img)
+            .header-right
+                ul.gnb
+                    li *5 > a
+    
+    main.navi
+        .main-inner
+            .main-search
+                h1
+                input[type=search]
+            .main-category
+                h1
+                ul.category
+                    li * 9 > img, p
+            .main-roadmap
+                h1
+                ul.roadmap
+                    li * 4 > p, h2, img
+
+    section.contents
+        .section-1
+            .section-inner
+                p
+                h1 
+                .contents
+                    .content-1
+                        h2, p, img
+                    .content-2
+                        h2, p, img
+                    .content-3
+                        h2, p, img
+                    .content-4
+                        h2, p, img
+
+        .section-2
+            .section-inner
+                p
+                h1
+                contents
+                    .content-1
+                        b, h2, p
+                    .content-2
+                        b, h2, p
+                    .content-3
+                        b, h2, p
+                    .content-4
+                        b, h2, p
+        .section-3
+            .section-inner
+                .video-content
+                    video
+                .contents
+                    .content-1
+                        p, h1
+                    .content-2
+                        div * 3 > p, b, span
+
+        .section-4
+            .section-inner
+                p
+                h1
+                .button > button
+                img
+
+        .section-5
+            .section-inner
+                p
+                h1
+                .contents
+                    .content-1
+                        .title
+                            p
+                            h2
+                            i
+                        .thumb
+                            .thumb-box > img
+                            button.more-btn
+
+                    .content-2
+                        .title
+                            p
+                            h2
+                            i
+                        .thumb
+                            .thumb-box > img
+                            button.more-btn
+                    .content-3
+                        .title
+                            p
+                            h2
+                            i
+                        .thumb
+                            .thumb-box > img
+                            button.more-btn
+
+        .section-6
+            .section-inner
+                p
+                h1
+                div > img, button
+
+    footer
+        .footer-inner
+            .footer-left
+                ul.f-menu
+                    li *6 > a
+                .copy
+                    span *7
+            .footer-right
+                .sns > a *5 >img
+
+    .fix-button
+        p
+        button.start-btn
+
+
+
+----------------------------------------------------
+모바일 버전 (가로 1200px 이하일때)
+
+.mobile-header 
+    .mobile-search-box
+    .mobile-logo
+    ul.mobile-gnb > li *1 > a
